@@ -1,0 +1,18 @@
+{
+  "name": "accenture-assesment",
+  "version": "1.0.0",
+  "description": "Sr tech assessment for Accenture",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "task1": "node -e 'require(\"./task1_makeNumSentences.js\").test()'",
+    "task2": "node -e 'require(\"./task2_promises.js\").test()'",
+    "task4": "node -e 'require(\"./task4_getProcessingPage.js\").test()'",
+    "task5": "node -e 'require(\"./task5_codeReview.js\").test()'"
+  },
+  "author": "Ahmed Mansour",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
