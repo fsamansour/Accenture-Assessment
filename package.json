@@ -4,7 +4,8 @@
   "description": "Sr tech assessment for Accenture",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "start:dev": "nodemon ./index.js",
     "task1": "node -e 'require(\"./task1_makeNumSentences.js\").test()'",
     "task2": "node -e 'require(\"./task2_promises.js\").test()'",
     "task4": "node -e 'require(\"./task4_getProcessingPage.js\").test()'",
